@@ -7,6 +7,7 @@ import About from './components/About';
 import Contact from './components/Contact';
 import TryNow from './components/TryNow';
 import Header from './components/Header';
+import ChatInterface from './components/ChatInterface.tsx';
 
 export default function App() {
   return (
@@ -17,10 +18,12 @@ export default function App() {
           <Route path="/" element={<Dashboard />} />
           <Route path="/fullscreen-map" element={<FullscreenMap />} />
           <Route path="/compare" element={<OceanComparisonApp />} />
+          <Route path="/chat" element={<ChatInterface />} />
           <Route path="/features" element={<Features />} />
           <Route path="/about" element={<About />} />
           <Route path="/contact" element={<Contact />} />
           <Route path="/try-now" element={<TryNow />} />
+        
           {/* Catch-all route to redirect any unmatched paths to dashboard */}
           <Route path="*" element={<Navigate to="/" replace />} />
         </Routes>

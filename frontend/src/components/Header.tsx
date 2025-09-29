@@ -30,6 +30,9 @@ export default function Header() {
             <Link to="/compare" className="text-cyan-400 hover:text-cyan-600 underline hover:underline transition-colors font-medium">
               compare
             </Link>
+            <Link to="/chat" className="text-cyan-400 hover:text-cyan-600 underline hover:underline transition-colors font-medium">
+              Chat & Analytics
+            </Link>
             <Link to="/features" className="text-slate-300 hover:text-white transition-colors">
               Features
             </Link>

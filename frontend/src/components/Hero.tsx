@@ -34,7 +34,9 @@ export default function Hero() {
         </div>
       </div>
 
-      <ChatInterface isOpen={isChatOpen} onClose={handleCloseChat} />
+      {/* <ChatInterface isOpen={isChatOpen} onClose={handleCloseChat} /> */}
+      {/* <ChatInterface /> */}
+
     </>
   );
 }
